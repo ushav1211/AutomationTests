@@ -22,9 +22,9 @@ public class LaunchBrowser {
 
 }
 	
-//	@AfterSuite
-//	public void closeBrowser() {
-//		driver.close();
+	@AfterSuite
+	public void closeBrowser() {
+		driver.close();
 
-//}
+}
 }
