@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-13T06:10:24Z" name="Default suite" finished-at="2021-03-13T06:10:46Z" duration-ms="21271">
+  <suite started-at="2021-03-25T18:08:36Z" name="Default suite" finished-at="2021-03-25T18:08:59Z" duration-ms="22426">
     <groups>
     </groups>
-    <test started-at="2021-03-13T06:10:24Z" name="Default test" finished-at="2021-03-13T06:10:46Z" duration-ms="21271">
-      <class name="org.src.testautomation.ushaseautomation.AssertVerifications">
-        <test-method signature="test()[pri:0, instance:org.src.testautomation.ushaseautomation.AssertVerifications@707194ba]" started-at="2021-03-13T06:10:24Z" name="test" finished-at="2021-03-13T06:10:46Z" duration-ms="21185" status="PASS">
+    <test started-at="2021-03-25T18:08:36Z" name="Default test" finished-at="2021-03-25T18:08:59Z" duration-ms="22426">
+      <class name="AutoPractiseTests.AutoPractiseTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:AutoPractiseTests.AutoPractiseTestCases@687e99d8]" started-at="2021-03-25T18:08:26Z" name="launchBrowser" finished-at="2021-03-25T18:08:36Z" duration-ms="9991" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- org.src.testautomation.ushaseautomation.AssertVerifications -->
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initialisePages()[pri:0, instance:AutoPractiseTests.AutoPractiseTestCases@687e99d8]" started-at="2021-03-25T18:08:36Z" name="initialisePages" finished-at="2021-03-25T18:08:37Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisePages -->
+        <test-method signature="shopDress()[pri:0, instance:AutoPractiseTests.AutoPractiseTestCases@687e99d8]" started-at="2021-03-25T18:08:37Z" name="shopDress" finished-at="2021-03-25T18:08:59Z" duration-ms="22282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopDress -->
+      </class> <!-- AutoPractiseTests.AutoPractiseTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
